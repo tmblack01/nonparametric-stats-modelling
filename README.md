@@ -6,7 +6,7 @@ This project explores different non-parametric and semi-parametric statistical m
 
 ## Data Generating Processes (DGPs)
 
-200 random samples $\{(\mathbf{X}_i, Y_i)\}_{i=1}^{n}$ where $n=100$ are generated, where 
+200 random samples $(\mathbf{X}_1, Y_1),...,(\mathbf{X}_n, Y_n)$ where $n=100$ are generated, where 
 - $\mathbf{X} = (X_{1}, X_{2}) \sim N(0,\Sigma_X)$ 
 - $(k,k')$-element of $\Sigma_X$ is $0.2^{|k-k'|}$ 
 - $\epsilon \sim N(0,1)$ independent of $\mathbf{X}$ 
